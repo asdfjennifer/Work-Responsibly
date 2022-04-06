@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* ============================
+        General Styles
+
+font-family: 'Roboto', sans-serif;
+
+farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000
+============================ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ccc;
+    font-family: 'Roboto', sans-serif;
+    /* margin: 30px 100px 10px; */
+}
+
+/* ============================
+            HEADER
+============================ */
+
+nav a { 
+    color: #659d89;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav {
+    margin: 50px 150px 200px;
+}
+
+header {
+    border-bottom: 1px solid ##000; /*#ccc*/
+    /* padding: 100px; */
+}
+
+h1 { 
+    font-size: 28px;
+    color: #659d89;
+    margin: 0px 150px 10px;
+}
+
+/* A collection  */
+/* section h1 p {     
+    font-size: 56px;
+    margin: 0 5vw 0 0;
+} */
+
+
+/* — A collection of resources */
+h3 { 
+    font-size: 24px;
+    margin: 0px 150px 10px;
+}
+
+aside a {
+    display: block;
+    text-align: right;
+    padding: 10px 150px;
+}
+
+aside ~ a { 
+        font-size: 15px;
+        color: #666;
+        text-decoration: none;
+        margin: 0px 150px 50px;
+    }
+    
+aside ~ a::before {
+    content: "↓";
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* What's your struggle */
+h2 {
+    font-size: 24px;
+    margin: 30px 150px 10px;
+}
+
+h2 > p { 
+    font-size: 20px;
+    margin: 30px 50px 10px;
+}
+
+/* Klappt nicht */
+
+header div img {
+    width: 30px;
+    display: block;
+    margin: 0 0 15px auto;
+}
+
+main section div img:first-child {
+    display: inline-block;
+}
+main section div img:nth-of-type(2) {
+    display: inline-block;
+}
+
+/* Klappt nicht */
+.firstContainer {
+    margin: 100px 200px 0px 0px;
+}
+
+ul li:first-child {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    margin: 10px 0px 0px;
+}
+
+ul li:nth-of-type(2){
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+}
+
+ul li:last-child{
+    text-align: center;
+    font-size: 10px;
+    color: #666;
+    margin: 0px 0px 100px;
+}
+
+/* ============================
+            FOOTER
+============================ */
+
+footer a { 
+    font-size: 24px;
+    color: #666;
+    text-decoration: none;
+    margin: 0px 0px 50px;
+}
+
+footer a::before {
+    content: "↑";
+    margin-right: 10px;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer p {
+    margin-top: 100px;
+}
